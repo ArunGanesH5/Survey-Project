@@ -1,0 +1,77 @@
+body {
+    margin: 10px;
+    font-size: 14px;
+    background-color: powderblue;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+.email{
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.container {
+    max-width: 600px;
+    width: 90%;
+    background-color: white;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+    border-top: 10px solid navy;
+    font-size: 16px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.questions {
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.question {
+    padding: 20px;
+    font-size: large;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: white;
+    text-align: justify;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+    }
+
+    .question {
+        font-size: medium;
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}

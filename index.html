@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey: Technology in Mathematics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+    <div class="container">
+        <h1 style="text-align: center;">Survey: Utilities of Technology in Mathematics</h1></div>
+        <form id="surveyForm" action="process_survey.php" method="POST">
+            <!-- Email Field -->
+            <label style="text-align: center;" for="email" id="YourEmail">Your Email:</label>
+            <input sytle="text-align: center;"type="email" class="email"name="email" placeholder="Enter Your email" required><br><br>
+
+            <!-- Questions -->
+            <div class="question">
+            <h3>1. How familiar are you with statistic methods used in data analysis?</h3>
+            <input type="radio" name="q1" value="Very Familiar" required> Very Familiar<br><br>
+            <input type="radio" name="q1" value="Somewhat familiar"> Somewhat familiar<br><br>
+            <input type="radio" name="q1" value="Slightly familiar"> Slightly familiar<br><br>
+            <input type="radio" name="q1" value="Not familiar at all"> Not familiar at all</div><br><br>
+            <div class="question">
+            <h3>2. Which statistical techniques do you most commonly use in your work or studies?</h3>
+            <input type="radio" name="q2" value="Descriptive Statistics" required> Descriptive statistics<br><br>
+            <input type="radio" name="q2" value="Inferential statistics"> Inferential statistics<br><br>
+            <input type="radio" name="q2" value="Probability theory"> Probability theory<br><br>
+            <input type="radio" name="q2" value="I don't use statistical techniques"> I don't use statistical techniques</div><br><br>
+            <div class="question">
+            <h3>3. How often do you apply probability theory in problem-solving?</h3>
+            <input type="radio" name="q3" value="Always" required> Always<br><br>
+            <input type="radio" name="q3" value="Often"> Often<br><br>
+            <input type="radio" name="q3" value="Rarely"> Rarely<br><br>
+            <input type="radio" name="q3" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>4. What is your level of understanding of correlation and regression analysis?</h3>
+            <input type="radio" name="q4" value="Advanced" required> Advanced<br><br>
+            <input type="radio" name="q4" value="intermediate"> Intermediate<br><br>
+            <input type="radio" name="q4" value="Basic"> Basic<br><br>
+            <input type="radio" name="q4" value="None"> None</div><br><br>
+            <div class="question">
+            <h3>5. How confident are you in interpreting statistical data from various sources?</h3>
+            <input type="radio" name="q5" value="Very confident" required> Very confident<br><br>
+            <input type="radio" name="q5" value="Moderately confident"> Moderately confident<br><br>
+            <input type="radio" name="q5" value="Slightly confident"> Slightly confident <br><br>
+            <input type="radio" name="q5" value="Not confident at all"> Not confident at all</div><br><br>
+            <div class="question">
+            <h3>6. Which field do you apply statistical methods in the most(eg. business,health care, Social Science)?</h3>
+            <input type="radio" name="q6" value="Business" required> Business<br><br>
+            <input type="radio" name="q6" value="Healthcare"> Healthcare<br><br>
+            <input type="radio" name="q6" value="Education"> Education<br><br>
+            <input type="radio" name="q6" value="Other"> Other</div><br><br>
+            <div class="question">
+            <h3>7. How frequently do you use statistical software( eg.SPSS,R,Excel)?</h3>
+            <input type="radio" name="q7" value="Daily" required> Daily<br><br>
+            <input type="radio" name="q7" value="Weekly"> Weekly<br><br>
+            <input type="radio" name="q7" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q7" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>8.What is your preferred method for visualizing data(eg. graphs,charts,tables)?</h3>
+            <input type="radio" name="q8" value="Graphs" required> Graphs<br><br>
+            <input type="radio" name="q8" value="Charts"> Charts<br><br>
+            <input type="radio" name="q8" value="Tables"> Tables<br><br>
+            <input type="radio" name="q8" value="Other"> Other</div><br><br>
+            <div class="question">
+            <h3>9. How do you handle large datasets in statistical analysis?</h3>
+            <input type="radio" name="q9" value="Use specialized" required> Use specialized software<br><br>
+            <input type="radio" name="q9" value="Outsource to experts"> Outsource to experts<br><br>
+            <input type="radio" name="q9" value="Manually analyze smaller samples">Manually analyze smaller samples <br><br>
+            <input type="radio" name="q9" value="Avoid large datasets"> Avoid large datasets</div><br><br>
+            <div class="question">
+            <h3>10. Do you use any advanced statistical techniques like multivariate analysis or time series forecasting?</h3>
+            <input type="radio" name="q10" value="Regularly" required> Regularly<br><br>
+            <input type="radio" name="q10" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q10" value="Rarely"> Rarely<br><br>
+            <input type="radio" name="q10" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>11. How important is the role of statiscal analysis in your decision-making process?</h3>
+            <input type="radio" name="q11" value="Extremely important" required> Extremely important<br><br>
+            <input type="radio" name="q11" value="Moderately important"> Moderately important<br><br>
+            <input type="radio" name="q11" value="Slightly important"> Slightly important<br><br>
+            <input type="radio" name="q11" value="Not important at all"> Not important at all </div><br><br>
+            <div class="question">
+            <h3>12.How often doyou update your mathematical knowledge or tools?</h3>
+            <input type="radio" name="q12" value="Regularly" required> Regularly<br><br>
+            <input type="radio" name="q12" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q12" value="Rarely">Rarely <br><br>
+            <input type="radio" name="q12" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>13. Do you think advancement in technology have improved mathematical problem- solving techniques?</h3>
+            <input type="radio" name="q13" value=" Strong agree" required> Strong agree<br><br>
+            <input type="radio" name="q13" value="Agree"> Agree<br><br>
+            <input type="radio" name="q13" value="Disagree"> Disagree<br><br>
+            <input type="radio" name="q13" value="Strongly disagree"> Strongly disagree</div><br><br>
+            <div class="question">
+            <h3>14. How important is it to stay up-to-date with the latest mathematical software and techniques?</h3>
+            <input type="radio" name="q14" value="Very important" required> Very important<br><br>
+            <input type="radio" name="q14" value="Somewhat important"> Somewhat important<br><br>
+            <input type="radio" name="q14" value="Slightly important"> Slightly important<br><br>
+            <input type="radio" name="q14" value="Not important at all"> Not important at all</div><br><br>
+            <div class="question">
+            <h3>15. Do you think online courses and tutorials are useful for updating mathematical knowledge?</h3>
+            <input type="radio" name="q15" value="Very useful" required> Very useful<br><br>
+            <input type="radio" name="q15" value="Somewhat useful"> Somewhat useful<br><br>
+            <input type="radio" name="q15" value="Slightly useful"> Slightly useful<br><br>
+            <input type="radio" name="q15" value="Not useful at all"> Not useful at all</div><br><br>
+            <div class="question">
+            <h3>16. How do you perceive the integration of machine learning and AI in modern mathematics?</h3>
+            <input type="radio" name="q16" value="Very promising" required> Very promising<br><br>
+            <input type="radio" name="q16" value="Somewhat promising"> Somewhat promising<br><br>
+            <input type="radio" name="q16" value="Neutral"> Neutral<br><br>
+            <input type="radio" name="q16" value="Not promising"> Not promising</div><br><br>
+            <div class="question">
+            <h3>17. How often do you use computations tools(eg. MATLAB,Mathematica) in mathematical applications?</h3>
+            <input type="radio" name="q17" value="Regularly" required>Regularly <br><br>
+            <input type="radio" name="q17" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q17" value="Rarely"> Rarely<br><br>
+            <input type="radio" name="q17" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>18. What mathematical tools or techniques do you feel are outdated or need improvement?</h3>
+            <input type="radio" name="q18" value="Traditional calculators" required> Traditional calculators<br><br>
+            <input type="radio" name="q18" value="Manually graphing methods"> Manually graphing methods<br><br>
+            <input type="radio" name="q18" value="Spreadsheet Tools"> Spreadsheet Tools<br><br>
+            <input type="radio" name="q18" value="None"> None</div><br><br>
+            <div class="question">
+            <h3>19. How frequently do you visit websites dedicated to learning maths?</h3>
+            <input type="radio" name="q19" value="Daily" required> Daily<br><br>
+            <input type="radio" name="q19" value="Weekly"> Weekly<br><br>
+            <input type="radio" name="q19" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q19" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>20. Which mathematical software do you prefer for solving complex mathematical problems?</h3>
+            <input type="radio" name="q20" value="MATLAB" required> MATLAB<br><br>
+            <input type="radio" name="q20" value="Mathematica"> Mathematica<br><br>
+            <input type="radio" name="q20" value="GeoGebra"> GeoGebra<br><br>
+            <input type="radio" name="q20" value="Other"> Other</div><br><br>
+            <div class="question">
+            <h3>21. Are you aware ofany open-source mathematical tools(eg. GeoGebra,Sympy)?</h3>
+            <input type="radio" name="q21" value="Yes, I use them regularly" required> Yes, I use them regularly<br><br>
+            <input type="radio" name="q21" value="Yes,but I rarely use them"> Yes,but I rarely use them<br><br>
+            <input type="radio" name="q21" value="No,but I would like to explore them"> No,but I would like to explore them<br><br>
+            <input type="radio" name="q21" value="No, and I'm not interested"> No, and I'm not interested</div><br><br>
+            <div class="question">
+            <h3>22. Do you use online platforms(eg. Wolfram Alpha,Desmos) for graphing and problem-solving?</h3>
+            <input type="radio" name="q22" value="frequently" required> frequently <br><br>
+            <input type="radio" name="q22" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q22" value="Rarely"> Rarely<br><br>
+            <input type="radio" name="q22" value="Never"> Never</div><br><br>
+            <div class="question">
+            <h3>23. Which mathematical website do you find most helpful for self-learning or teaching purposes?</h3>
+            <input type="radio" name="q23" value="Khan Academy" required> Khan Academy<br><br>
+            <input type="radio" name="q23" value="Wolfram Alpha"> Wolfram Alpha<br><br>
+            <input type="radio" name="q23" value="Brilliant.org"> Brilliant.org<br><br>
+            <input type="radio" name="q23" value="Other"> Other</div><br><br>
+            <div class="question">
+            <h3>24. How do you use mathematical websites in your research (or) study routine?</h3>
+            <input type="radio" name="q24" value="For tutorials and explanations" required> For tutorials and explanations<br><br>
+            <input type="radio" name="q24" value="For problem-solving"> For problem-solving<br><br>
+            <input type="radio" name="q24" value="For exploring advanced concepts"> For exploring advanced concepts<br><br>
+            <input type="radio" name="q24" value="I don't use them"> I don't use them</div><br><br>
+            <div class="question">
+            <h3>25. How would you rate the usability of mathematical websites for beginners?</h3>
+            <input type="radio" name="q25" value="Excellent" required> Excellent<br><br>
+            <input type="radio" name="q25" value="Good"> Good<br><br>
+            <input type="radio" name="q25" value="Fair"> Fair<br><br>
+            <input type="radio" name="q25" value="Poor"> Poor</div><br><br>
+            <div class="question">
+            <h3>26. Do you believe technology has enhanced problem-solving capabilities in maths?</h3>
+            <input type="radio" name="q26" value=" Strong agree" required> Strong agree<br><br>
+            <input type="radio" name="q26" value="Agree"> Agree<br><br>
+            <input type="radio" name="q26" value="Disagree"> Disagree<br><br>
+            <input type="radio" name="q26" value="Strongly disagree"> Strongly disagree</div><br><br>
+            <div class="question">
+            <h3>27. Which technology tools do you use for mathematical problem-solving?</h3>
+            <input type="radio" name="q27" value=" Programming languages(eg.,python)" required> Programming languages(eg.,python)<br><br>
+            <input type="radio" name="q27" value="Mathematical software (eg.,MATLAB)"> Mathematical software(e.g, MATLAB)<br><br>
+            <input type="radio" name="q27" value="Online calculators"> Online calculators<br><br>
+            <input type="radio" name="q27" value="None"> None</div><br><br>
+            <div class="question">
+            <h3>28. How often do use cloud computing platforms (eg., AWS, Google Cloud) for solving problems?</h3>
+            <input type="radio" name="q28" value="frequently" required> frequently<br><br>
+            <input type="radio" name="q28" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q28" value="Rarely"> Rarely<br><br>
+            <input type="radio" name="q28" value="Never">Never</div><br><br>
+            <div class="question">
+            <h3>29. Have you used any machine learning or AI techniques for solving mathematical problems?</h3>
+            <input type="radio" name="q29" value="Yes,regularly" required> Yes,regularly<br><br>
+            <input type="radio" name="q29" value="Yes,Occasionally"> Yes,Occasionally<br><br>
+            <input type="radio" name="q29" value="No,but i'm not interested"> No,but i'm not interested<br><br>
+            <input type="radio" name="q29" value="No,and i'm not interested">No,and i'm not interested</div><br><br>
+            <div class="question">
+            <h3>30. How do you integrate technology with traditional mathematical methods?</h3>
+            <input type="radio" name="q30" value="Regularly" required> Regularly<br><br>
+            <input type="radio" name="q30" value="Occasionally"> Occasionally<br><br>
+            <input type="radio" name="q30" value="Rarely">Rarely<br><br>
+            <input type="radio" name="q30" value="Never">Never</div><br><br>
+
+            <button type="submit">Submit Survey</button>
+            </center>
+        </form>
+    
+</body>
+</html>
